@@ -1,0 +1,31 @@
+{
+    "name": "stringphp/validation",
+    "description": "Package description",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "StringPhp\\Validation\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Robert Snedeker",
+            "email": "rsnedeker20@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.16"
+    },
+    "scripts": {
+        "fix": "php-cs-fixer fix --using-cache=no",
+        "fix:dry": "php-cs-fixer fix --using-cache=no --diff --dry-run"
+    }
+}
