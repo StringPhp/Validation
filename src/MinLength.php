@@ -19,10 +19,6 @@ class MinLength extends Validator
 
     public function validate(mixed $value, callable $fail): void
     {
-        if (empty($value)) {
-            return;
-        }
-
         if (mb_strlen($value) < $this->min) {
             $fail($this->message);
         }
