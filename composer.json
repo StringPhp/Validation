@@ -1,6 +1,6 @@
 {
     "name": "stringphp/validation",
-    "description": "Package description",
+    "description": "Validate abstractions via attributes",
     "type": "library",
     "license": "MIT",
     "autoload": {

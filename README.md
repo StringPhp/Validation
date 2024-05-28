@@ -1,3 +1,9 @@
-# StringPhp/Package
+# StringPhp/Validation
 
-**TODO: Create documentation**
+## Installation
+
+```
+composer require stringphp/validation
+```
+
+More documentation available at [stringphp.com](https://stringphp.com/packages/validation)
